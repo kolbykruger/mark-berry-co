@@ -527,11 +527,11 @@ button.button, input[type="submit"].button {cursor: pointer; font-family: inheri
     }
 
 /*Footer*/
-.footer_wrap{width: 100%; background: #f8f8f8; padding: 10px; margin: 20px 0 0 0;}
-.footer{width: 100%; max-width: 1200px; margin: 0 auto; overflow: hidden; font-size: 1.2rem; text-align: center; color: rgba(0,0,0,.84);}
-.footer a{color: rgba(0,0,0,.84);}
+.footer_wrap{width: 100%; background: #545454; padding: 10px; margin: 20px 0 0 0;}
+.footer{width: 100%; max-width: 1200px; margin: 0 auto; overflow: hidden; text-align: center; color: rgba(0,0,0,.84);}
+.footer a{color: #ffb100; text-decoration: none;}
 .footer .social{margin: 20px auto; font-size: 2rem; display: flex; justify-content: center;}
-.footer .social a{margin: 0 5px; position: relative; background: rgba(0,0,0,1); display: flex; align-items: center; justify-content: center; padding: 5px; color: #fff; text-decoration: none; width: 2em;}
+.footer .social a{margin: 0 5px; position: relative; background: #ffb100; border-radius: 50%; display: flex; align-items: center; justify-content: center; padding: 5px; color: #545454; text-decoration: none; width: 2em;}
 .footer .social a:after {content: ""; display: block; padding-bottom: 100%;}
 .footer .social a:hover{background: rgba(0,0,0,.6);}
 .footer .address{margin: 0 auto 5px;}
